@@ -1,4 +1,4 @@
-fetch("/nav.html")
+fetch("/assets/insert-html/nav.html")
   .then((response) => response.text())
   .then((data) => {
     document.getElementById("nav-bar").innerHTML = data;
