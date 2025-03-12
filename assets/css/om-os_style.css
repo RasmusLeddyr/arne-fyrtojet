@@ -1,9 +1,3 @@
-section h1 {
-  text-align: center;
-  font-size: 64px;
-  margin-bottom: 32px;
-}
-
 article {
   display: flex;
   justify-content: end;
@@ -16,6 +10,13 @@ article .text {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+article .text h1 {
+  font-size: 64px;
+  margin-bottom: 32px;
+}
+article .text h2 {
+  font-size: 32px;
 }
 
 article .images {
