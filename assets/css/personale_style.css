@@ -1,0 +1,21 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section ul {
+  --item-gap: 64px;
+  --items-per-row: 4;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  gap: var(--item-gap);
+}
+section ul li {
+  width: calc((100% / var(--items-per-row)) - (var(--item-gap)));
+}
+section ul li img {
+  max-width: 100%;
+}

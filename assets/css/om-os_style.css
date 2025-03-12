@@ -13,9 +13,10 @@ article .text {
 }
 article .text h1 {
   font-size: 64px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 article .text h2 {
+  margin-top: 32px;
   font-size: 32px;
 }
 
@@ -24,7 +25,4 @@ article .images {
   display: flex;
   flex-direction: column;
   margin-right: calc(100% / 32);
-}
-
-article .images img {
 }
