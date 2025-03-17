@@ -1,3 +1,71 @@
+#staff {
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+}
 #staff ul {
   display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(5, 256px);
+  grid-template-rows: repeat(4, 192px);
+  grid-template-areas:
+    "a1 a1 a2 a3 a3"
+    "a1 a1 a4 a5 a5"
+    "a6 a7 a7 a5 a5"
+    "a6 a8 a9 a9 a10";
+}
+#staff ul :nth-child(1) {
+  grid-area: a1;
+}
+#staff ul :nth-child(2) {
+  grid-area: a2;
+}
+#staff ul :nth-child(3) {
+  grid-area: a3;
+}
+#staff ul :nth-child(4) {
+  grid-area: a4;
+}
+#staff ul :nth-child(5) {
+  grid-area: a5;
+}
+#staff ul :nth-child(6) {
+  grid-area: a6;
+}
+#staff ul :nth-child(7) {
+  grid-area: a7;
+}
+#staff ul :nth-child(8) {
+  grid-area: a8;
+}
+#staff ul :nth-child(9) {
+  grid-area: a9;
+}
+#staff ul :nth-child(10) {
+  grid-area: a10;
+}
+#staff ul :nth-child(11) {
+  grid-area: a11;
+}
+
+#staff ul li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+#staff ul li h2 {
+  z-index: 2;
+  margin: 0px 16px 16px 16px;
+}
+#staff ul li p {
+  z-index: 2;
+  margin: 0px 16px 16px 16px;
+}
+#staff ul li img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
