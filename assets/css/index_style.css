@@ -58,26 +58,30 @@
 #staff ul li h2 {
   z-index: 2;
   margin: 0px 16px 16px 16px;
-  color: rgb(84, 187, 255);
-  -webkit-text-stroke-color: black;
+  color: rgb(255, 255, 0);
+  -webkit-text-stroke-color: rgb(191, 127, 0);
   -webkit-text-stroke-width: 1px;
   font-size: 24px;
   font-weight: 900;
+  font-weight: bold;
+  background-color: rgba(1, 1, 1, 0.5);
 }
 #staff ul .small-img h2 {
   font-size: 16px;
+  -webkit-text-stroke-width: 0.5px;
 }
 #staff ul li p {
   z-index: 2;
   margin: 0px 16px 16px 16px;
-  color: rgb(255, 0, 255);
-  -webkit-text-stroke-color: rgb(0, 0, 255);
+  color: rgb(255, 255, 0);
+  -webkit-text-stroke-color: rgb(127, 191, 0);
   -webkit-text-stroke-width: 0.5px;
   font-size: 16px;
   font-weight: bold;
+  background-color: rgba(1, 1, 1, 0.5);
 }
 #staff ul .small-img p {
-  font-size: 14px;
+  font-size: 12px;
   -webkit-text-stroke-width: 0.25px;
 }
 #staff ul li img {

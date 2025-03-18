@@ -4,17 +4,23 @@ section {
   align-items: center;
 }
 
+section h1 {
+  margin-top: 64px;
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+
 section ul {
   --item-gap: 64px;
   --items-per-row: 4;
 
   width: 75%;
-  background-color: beige;
   display: grid;
-  grid-template-columns: repeat(var(--items-per-row), 1fr);
+  grid-template-columns: repeat(auto-fill, 256px);
   grid-template-rows: auto;
   gap: var(--item-gap);
+  justify-content: center;
 }
 section ul li img {
-  max-width: 100%;
+  width: 100%;
 }
