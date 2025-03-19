@@ -8,6 +8,9 @@ section h1 {
   margin-top: 64px;
   margin-bottom: 16px;
   font-size: 32px;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke-width: 1px;
 }
 
 section ul {
@@ -23,4 +26,18 @@ section ul {
 }
 section ul li img {
   width: 100%;
+}
+section ul li h2 {
+  text-align: center;
+  color: rgb(255, 191, 63);
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke-width: 1px;
+  font-size: 24px;
+}
+section ul li p {
+  text-align: center;
+  color: rgb(255, 191, 63);
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke-width: 1px;
+  font-size: 16px;
 }
