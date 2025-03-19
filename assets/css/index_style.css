@@ -60,7 +60,7 @@
   margin: 0px 16px 16px 16px;
   color: var(--col_gold);
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.375);
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   font-size: 24px;
   font-weight: 900;
   font-weight: bold;
@@ -68,22 +68,24 @@
 }
 #staff ul .small-img h2 {
   font-size: 16px;
-  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-width: 1px;
 }
+
 #staff ul li p {
   z-index: 2;
   margin: 0px 16px 16px 16px;
   color: var(--col_silver);
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.375);
-  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-width: 1px;
   font-size: 16px;
   font-weight: bold;
   background-color: rgba(1, 1, 1, 0.5);
 }
 #staff ul .small-img p {
   font-size: 12px;
-  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-width: 0.5px;
 }
+
 #staff ul li img {
   position: absolute;
   width: 100%;
