@@ -8,8 +8,8 @@ section h1 {
   margin-top: 64px;
   margin-bottom: 16px;
   font-size: 32px;
-  color: rgb(255, 255, 255);
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.5);
+  color: var(--col_gold);
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.375);
   -webkit-text-stroke-width: 1px;
 }
 
@@ -29,15 +29,15 @@ section ul li img {
 }
 section ul li h2 {
   text-align: center;
-  color: rgb(255, 191, 63);
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.5);
+  color: var(--col_silver);
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.375);
   -webkit-text-stroke-width: 1px;
   font-size: 24px;
 }
 section ul li p {
   text-align: center;
-  color: rgb(255, 191, 63);
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.5);
+  color: var(--col_copper);
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.375);
   -webkit-text-stroke-width: 1px;
   font-size: 16px;
 }
