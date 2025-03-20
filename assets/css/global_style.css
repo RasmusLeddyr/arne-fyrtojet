@@ -66,15 +66,24 @@ body {
   gap: 32px;
 }
 #nav-bar ul li a {
+  color: rgb(127, 63, 31);
   font-size: 32px;
   background: var(--grad_gold);
   padding: 16px;
-  border: 0px solid rgba(255, 255, 255, 0);
+  border: 4px solid rgba(0, 0, 0, 0.25);
   border-radius: 32px;
   transition: all 0.25s ease-in-out;
 }
 #nav-bar ul li a:hover {
+  color: rgb(255, 127, 15);
   padding: 32px;
   border: 4px solid rgb(255, 223, 127);
   background: var(--grad_gold-light);
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: var(--col_main);
+  min-height: 32px;
 }
