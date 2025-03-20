@@ -1,0 +1,54 @@
+.images {
+  width: 1024px;
+  height: 1024px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr 2fr 1fr 3fr;
+  grid-template-rows: 3fr 3fr 3fr 4fr;
+  gap: 10px;
+  grid-template-areas:
+    "a01 a01 a01 a02 a02 a03 a03"
+    "a01 a01 a01 a04 a04 a04 a05"
+    "a06 a07 a07 a07 a08 a08 a09"
+    "a10 a10 a11 a11 a11 a12 a12";
+}
+.images li img {
+  width: 100%;
+  height: 100%;
+}
+
+.images :nth-child(1) {
+  grid-area: a01;
+}
+.images :nth-child(2) {
+  grid-area: a02;
+}
+.images :nth-child(3) {
+  grid-area: a03;
+}
+.images :nth-child(4) {
+  grid-area: a04;
+}
+.images :nth-child(5) {
+  grid-area: a05;
+}
+.images :nth-child(6) {
+  grid-area: a06;
+}
+.images :nth-child(7) {
+  grid-area: a07;
+}
+.images :nth-child(8) {
+  grid-area: a08;
+}
+.images :nth-child(9) {
+  grid-area: a09;
+}
+.images :nth-child(10) {
+  grid-area: a10;
+}
+.images :nth-child(11) {
+  grid-area: a11;
+}
+.images :nth-child(12) {
+  grid-area: a12;
+}

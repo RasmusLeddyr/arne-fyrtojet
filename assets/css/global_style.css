@@ -1,6 +1,6 @@
 :root {
   --col_main: rgb(56, 180, 255);
-  --col_copper: rgb(191, 127, 63);
+  --col_copper: rgb(255, 127, 63);
   --col_silver: rgb(223, 255, 255);
   --col_gold: rgb(255, 255, 95);
   --grad_gold: linear-gradient(
