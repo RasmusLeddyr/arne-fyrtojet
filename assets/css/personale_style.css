@@ -25,9 +25,11 @@ section {
   width: 256px;
   margin-top: calc(512px - (256px / 2));
   border-radius: 100%;
+  border: 8px solid var(--col_second);
 }
 #staff p.leader {
   margin-bottom: 64px;
+  color: var(--col_second);
 }
 #staff ul {
   --item-gap: 64px;
