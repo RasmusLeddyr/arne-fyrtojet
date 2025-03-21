@@ -1,6 +1,8 @@
 section {
   display: flex;
   flex-direction: column;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 #main-container {
