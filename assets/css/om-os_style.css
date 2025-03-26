@@ -16,6 +16,7 @@ section {
   display: flex;
   flex-direction: column;
   text-align: center;
+  color: var(--col_text);
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.375);
   -webkit-text-stroke-width: 1px;
 }
