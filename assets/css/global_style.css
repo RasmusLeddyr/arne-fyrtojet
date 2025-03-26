@@ -1,5 +1,6 @@
 :root {
   --col_background: rgb(56, 180, 255);
+
   --grad_main: linear-gradient(45deg, rgb(255, 255, 63), rgb(255, 223, 63))
     border-box;
   --col_main: rgb(255, 223, 63);
@@ -67,7 +68,7 @@ body {
   gap: 32px;
 }
 #nav-bar ul li a {
-  color: rgb(127, 63, 31);
+  color: rgb(127, 63, 63);
   font-size: 32px;
   background: var(--grad_gold);
   padding: 16px;
@@ -98,6 +99,7 @@ body {
 }
 .title h1 {
   font-size: 48px;
+  color: rgb(127, 63, 63);
 }
 
 /* FOOTER */

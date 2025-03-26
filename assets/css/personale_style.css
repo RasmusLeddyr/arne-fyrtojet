@@ -29,9 +29,12 @@ section {
   border: 8px solid transparent;
   background: var(--grad_second);
 }
+#staff h2.leader {
+  font-size: 32px;
+}
 #staff p.leader {
+  font-size: 16px;
   margin-bottom: 64px;
-  color: var(--col_second);
 }
 #staff ul {
   --item-gap: 64px;
