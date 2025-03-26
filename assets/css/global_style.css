@@ -4,9 +4,9 @@
   --grad_main: linear-gradient(45deg, rgb(255, 255, 63), rgb(255, 223, 63))
     border-box;
   --col_main: rgb(255, 223, 63);
-  --grad_second: linear-gradient(45deg, rgb(127, 63, 255), rgb(95, 63, 191))
+  --grad_second: linear-gradient(45deg, rgb(191, 63, 255), rgb(127, 63, 191))
     border-box;
-  --col_second: rgb(95, 63, 191);
+  --col_second: rgb(127, 63, 191);
 
   --grad_gold: linear-gradient(
     45deg,
@@ -47,7 +47,9 @@ body {
   background-color: var(--col_background);
 }
 
-/* NAV BAR */
+/*
+NAV BAR
+*/
 #nav-bar {
   display: flex;
   flex-direction: row;
@@ -85,10 +87,12 @@ body {
   background: var(--grad_gold-light);
 }
 
-/* TITLE */
+/*
+TITLE
+*/
 header {
   width: 87.5vw;
-  height: calc(87.5vw / 4);
+  min-height: calc(87.5vw / 4);
   background: var(--grad_main);
   border: 12px solid var(--col_main);
   border-radius: 64px;
@@ -97,22 +101,53 @@ header {
   text-align: center;
   justify-content: center;
   margin: 64px auto 64px auto;
+  padding: 16px;
 }
 header h1 {
   font-size: 48px;
   color: rgb(127, 63, 63);
 }
 
-/* FOOTER */
+/*
+FOOTER
+*/
 footer {
   width: 87.5vw;
-  height: calc(87.5vw / 4);
+  min-height: calc(87.5vw / 8);
   background: var(--grad_second);
   border: 12px solid var(--col_second);
   border-radius: 64px;
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
   margin: 64px auto 64px auto;
+  padding: 16px;
+}
+footer .contact {
+  --gap: 64px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer h1 {
+  color: white;
+  font-size: 32px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+footer div {
+  margin-right: calc(var(--gap) / 2);
+  margin-left: calc(var(--gap) / 2);
+}
+footer div h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+footer div p,
+footer div a {
+  color: white;
+  font-size: 16px;
 }
