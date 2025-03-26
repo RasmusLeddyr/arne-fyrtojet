@@ -1,7 +1,12 @@
 :root {
-  --col_main: rgb(56, 180, 255);
+  --col_background: rgb(56, 180, 255);
+  --grad_main: linear-gradient(45deg, rgb(255, 255, 63), rgb(255, 223, 63))
+    border-box;
+  --col_main: rgb(255, 223, 63);
+  --grad_second: linear-gradient(45deg, rgb(191, 63, 255), rgb(63, 63, 191))
+    border-box;
   --col_second: rgb(191, 63, 255);
-  --col_action: rgb(255, 223, 63);
+
   --grad_gold: linear-gradient(
     45deg,
     rgba(255, 255, 63, 1) 0%,
@@ -38,7 +43,7 @@ body {
   );
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: var(--col_main);
+  background-color: var(--col_background);
 }
 
 /* NAV BAR */
@@ -47,7 +52,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 16px;
-  background-color: var(--col_main);
+  background-color: var(--col_background);
 }
 #nav-bar img {
   height: 128px;
@@ -81,14 +86,8 @@ body {
 .title {
   width: 75vw;
   height: calc(75vw / 4);
-  background: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.75) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-blend-mode: overlay;
-  background-color: var(--col_action);
-  border: 16px solid var(--col_action);
+  background: var(--grad_main);
+  border: 16px solid var(--col_main);
   border-radius: 32px;
   display: flex;
   flex-direction: column;
@@ -103,6 +102,6 @@ body {
 
 /* FOOTER */
 #footer {
-  background-color: var(--col_main);
+  background-color: var(--col_second);
   min-height: 32px;
 }

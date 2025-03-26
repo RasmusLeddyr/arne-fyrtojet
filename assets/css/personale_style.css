@@ -19,13 +19,15 @@ section {
   height: 512px;
   object-fit: cover;
   object-position: center;
+  border-radius: 64px;
 }
 #staff img.leader {
   z-index: 2;
   width: 256px;
   margin-top: calc(512px - (256px / 2));
   border-radius: 100%;
-  border: 8px solid var(--col_second);
+  border: 8px solid transparent;
+  background: var(--grad_second);
 }
 #staff p.leader {
   margin-bottom: 64px;
@@ -43,7 +45,8 @@ section {
 #staff ul li img {
   width: 100%;
   border-radius: 12.5%;
-  border: 8px solid var(--col_action);
+  border: 8px solid transparent;
+  background: var(--grad_main);
 }
 #staff ul li h2 {
   text-align: center;
